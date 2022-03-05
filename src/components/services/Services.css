@@ -35,7 +35,7 @@
 }
 .service__list li {
     display:flex;
-    gap: 3rem;
+    gap: 1rem;
     margin-bottom: 0.8rem;
 }
 .service__list-icon {
@@ -43,7 +43,7 @@
     margin-top: 2px;
 }
 .service__list p{
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
 @media screen and (max-width: 1024){
