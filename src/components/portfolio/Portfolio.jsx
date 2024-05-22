@@ -1,39 +1,39 @@
 import React from 'react';
 import './Portfolio.css';
 import dhopa from '../../assets/Smart_Dhopa.png';
-import ornament from '../../assets/ornament.PNG';
-import hospital from '../../assets/hospital.PNG';
+import blood from '../../assets/blood.jpeg';
+import medico from '../../assets/medico.jpeg';
 
-import port from '../../assets/port.PNG';
+import foodie from '../../assets/foodie.jpeg';
 
 
 const data = [
     {
         id: 1,
-        image: ornament,
-        title: 'Ornament Gallery',
-        github:'https://github.com',
-        demo:'http://ornamentgallery.herokuapp.com/'
+        image: blood,
+        title: 'Blood Donation',
+        github:'https://github.com/salauddin-ayub/Blood_Donation.git',
+        demo:'https://bdblooddonation.netlify.app/'
     },
     {
         id: 2,
-        image: hospital,
-        title: 'Hospital Apothecary',
-        github:'https://github.com',
-        demo:'http://hospital-apothecary.herokuapp.com/'
+        image: medico,
+        title: 'Medico',
+        github:'https://github.com/salauddin-ayub/Medico.git',
+        demo:'https://medico-eb8e9.web.app/'
     },
     {
         id: 3,
-        image: port,
-        title: 'Django Portfolio',
-        github:'https://github.com',
-        demo:'http://salauddinayub-portfolio.herokuapp.com/'
+        image: foodie,
+        title: 'Foodie Zone',
+        github:'https://github.com/salauddin-ayub/Foodizone.git',
+        demo:'https://foodie-zone-6a14d.web.app/'
     },
     {
         id: 4,
         image: dhopa,
         title: 'Smart Dhopa',
-        github:'https://github.com',
+        github:'https://github.com/PriontoAbdullah/Smart-Dhopa-React-App.git',
         demo:'https://smart-dhopa-online-laundry-app.web.app/'
     },
 ]
